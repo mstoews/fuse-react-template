@@ -2,6 +2,7 @@ import { styled } from '@mui/material/styles';
 import { useTranslation } from 'react-i18next';
 import FusePageSimple from '@fuse/core/FusePageSimple';
 import MoziacContent from '@fuse/core/Moziac';
+// import LandingContent from '@fuse/core/LandingContent';
 
 const Root = styled(FusePageSimple)(({ theme }) => ({
   '& .FusePageSimple-header': {
@@ -21,11 +22,6 @@ function ExamplePage(props) {
 
   return (
     <Root
-      header={
-        <div className="p-24">
-          <h4>{t('TITLE')}</h4>
-        </div>
-      }
       content={
         <div className="p-24">
           <MoziacContent />

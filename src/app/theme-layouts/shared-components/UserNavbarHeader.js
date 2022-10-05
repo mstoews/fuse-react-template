@@ -1,5 +1,4 @@
 import { styled } from '@mui/material/styles';
-import Avatar from '@mui/material/Avatar';
 import Typography from '@mui/material/Typography';
 import { useSelector } from 'react-redux';
 import { selectUser } from 'app/store/userSlice';
@@ -29,24 +28,24 @@ function UserNavbarHeader(props) {
   const user = useSelector(selectUser);
 
   return (
-    <Root className="user relative flex flex-col items-center justify-center p-16 pb-14 shadow-0">
-      <div className="flex items-center justify-center mb-24">
+    <Root className="relative flex flex-col items-center justify-center p-16 user pb-14 shadow-0">
+      {/* <div className="flex items-center justify-center mb-24">
         <Avatar
           sx={{
             backgroundColor: 'background.paper',
             color: 'text.secondary',
           }}
-          className="avatar text-32 font-bold w-96 h-96"
+          className="font-bold avatar text-32 w-96 h-96"
           src={user.data.photoURL}
           alt={user.data.displayName}
         >
           {user.data.displayName.charAt(0)}
         </Avatar>
-      </div>
-      <Typography className="username text-14 whitespace-nowrap font-medium">
+      </div> */}
+      <Typography className="font-medium username text-14 whitespace-nowrap">
         {user.data.displayName}
       </Typography>
-      <Typography className="email text-13 whitespace-nowrap font-medium" color="text.secondary">
+      <Typography className="font-medium email text-13 whitespace-nowrap" color="text.secondary">
         {user.data.email}
       </Typography>
     </Root>

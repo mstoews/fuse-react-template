@@ -10,7 +10,7 @@ i18next.addResourceBundle('ar', 'navigation', ar);
 const navigationConfig = [
   {
     id: 'example-component',
-    title: 'Main',
+    title: 'Dashboard',
     type: 'item',
     icon: 'heroicons-outline:document-text',
     url: 'example',
@@ -23,7 +23,7 @@ const navigationConfig = [
     url: 'landing-page',
   },
   {
-    id: 'simple-grid-page',
+    id: 'party-page',
     title: 'Simple Data Grid',
     type: 'item',
     icon: 'addchart',

@@ -152,3 +152,11 @@ input:-webkit-autofill:active
 .fc-scrollgrid-section-liquid {
     height: 1px !important;
 }
+
+
+#hero {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/themanager-cdac2.appspot.com/o/casie_knitting_horizontal.jpg?alt=media&token=f6e06a81-b307-4507-b946-e8dbdda4d9b1');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  

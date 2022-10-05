@@ -16,7 +16,7 @@ export default function PartyPage() {
 
   useEffect(() => {
     async function fetchData() {
-      const result = await axios.get('https://www.ag-grid.com/example-assets/row-data.json');
+      const result = await axios.get('http://localhost:8082/trades');
       setRowData(result.data);
     }
     fetchData();

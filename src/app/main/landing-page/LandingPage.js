@@ -1,6 +1,9 @@
-import MoziacContent from '@fuse/core/Moziac/MoziacContent';
+
 import { styled } from '@mui/material/styles';
 import FusePageSimple from '@fuse/core/FusePageSimple';
+// import MainPage from 'app/content/MainPage';
+// import DemoContent from '@fuse/core/DemoContent';
+import DashboardContent from '@fuse/core/DashboardContent';
 
 const Root = styled(FusePageSimple)({
   '& .FusePageSimple-header': {},
@@ -20,7 +23,7 @@ function LandingPage(props) {
       }
       content={
         <div className="p-36">
-          <MoziacContent />
+          <DashboardContent />
         </div>
       }
     />

@@ -10,6 +10,7 @@ import ExampleConfig from '../main/example/ExampleConfig';
 import LandingPageConfig from '../main/landing-page/LandingPageConfig';
 import PartyPageConfig from '../main/party-page/partyPageConfig';
 
+
 const routeConfigs = [
   ExampleConfig,
   SignOutConfig,

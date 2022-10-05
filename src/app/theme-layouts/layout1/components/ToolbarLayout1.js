@@ -63,8 +63,8 @@ function ToolbarLayout1(props) {
             </Hidden>
           </div>
 
-          <div className="flex items-center px-8 h-full overflow-x-auto">
-            <LanguageSwitcher />
+          <div className="flex items-center h-full px-8 overflow-x-auto">
+            {/* <LanguageSwitcher /> */}
 
             <AdjustFontSize />
 
@@ -76,9 +76,9 @@ function ToolbarLayout1(props) {
               <ChatPanelToggleButton />
             </Hidden>
 
-            <QuickPanelToggleButton />
+            {/* <QuickPanelToggleButton />
 
-            <NotificationPanelToggleButton />
+            <NotificationPanelToggleButton /> */}
 
             <UserMenu />
           </div>
